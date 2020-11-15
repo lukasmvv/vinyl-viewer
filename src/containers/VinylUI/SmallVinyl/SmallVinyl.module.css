@@ -1,0 +1,29 @@
+.SmallVinylDiv {
+	height: 80%;
+	width: 10px;
+	background-color: sandybrown;
+	margin: 0 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.SmallVinylDiv:hover {
+	transform: scale(1.2);
+}
+
+.SideInfo {
+	font-size: 0.5em;
+	writing-mode: vertical-rl;
+	transform: rotate(-180deg);
+	/* display: block; */
+	
+    /* transform: rotate(-90deg); */
+}
+
+
+
+@media(min-width:600px) {
+
+}

@@ -1,0 +1,14 @@
+* {
+	box-sizing: border-box;
+}
+
+.Layout {
+	width: 100vw;
+	height: 100vh;
+	border: 5px solid black;
+	overflow: hidden;
+}
+
+@media(min-width:600px) {
+
+}
